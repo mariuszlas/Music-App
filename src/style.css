@@ -1,0 +1,13 @@
+
+main {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+table {
+    border-style: dashed;
+    align-items: center;
+}
+
+td {
+    padding: 4px;
+}
