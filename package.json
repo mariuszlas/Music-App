@@ -19,24 +19,6 @@
   },
   "homepage": "https://github.com/mariuszlas/Music-App#readme",
   "devDependencies": {
-<<<<<<< HEAD
-    "@babel/core": "^7.15.5",
-    "@babel/preset-env": "^7.15.4",
-    "@babel/preset-react": "^7.14.5",
-    "babel-loader": "^8.2.2",
-    "css-loader": "^6.2.0",
-    "html-webpack-plugin": "^5.3.2",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2",
-    "style-loader": "^3.2.1",
-    "webpack": "^5.52.0",
-    "webpack-cli": "^4.8.0",
-    "webpack-dev-server": "^4.1.0"
-  },
-  "dependencies": {
-    "@babel/plugin-proposal-class-properties": "^7.14.5",
-    "@babel/plugin-transform-runtime": "^7.15.0"
-=======
     "@babel/plugin-proposal-class-properties": "^7.12.1",
     "babel-loader": "^8.2.1",
     "css-loader": "^5.0.1",
@@ -52,6 +34,5 @@
     "@babel/preset-react": "^7.12.5",
     "react": "^17.0.1",
     "react-dom": "^17.0.1"
->>>>>>> af42fd6f630774306b0e2ae1844044f94c3c6900
   }
 }
