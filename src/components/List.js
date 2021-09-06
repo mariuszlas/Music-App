@@ -4,8 +4,7 @@ import React from 'react';
 const List = () => {
 
 
-    return (
-        <table>
+    return (<table>
             <tr>
                 <th>Album Name</th>
                 <th>Release Date</th>
