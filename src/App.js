@@ -8,8 +8,6 @@ const App = () => {
         <h1>Favourite Artist</h1>
         < ArtistInfo />
         < List />
-        
-        <h1>Hello</h1>
       </main>
     );
   }
