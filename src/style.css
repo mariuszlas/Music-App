@@ -10,4 +10,7 @@ table {
 
 td {
     padding: 4px;
+    border-style: solid;
+    border-collapse: collapse;
+    padding:0.25px;
 }
