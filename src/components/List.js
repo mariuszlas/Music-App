@@ -3,7 +3,7 @@ import React from 'react';
 
 const List = () => {
 
-    
+
     return (
         <table>
             <tr>
@@ -30,4 +30,4 @@ const List = () => {
     );
 }
 
-export default App;
+export default List;
