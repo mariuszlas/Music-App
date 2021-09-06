@@ -1,6 +1,7 @@
 import React from 'react';
 import ArtistInfo from './components/Intro';
 import List from './components/List.js';
+import './style.css'
 
 const App = () => {
     return (
