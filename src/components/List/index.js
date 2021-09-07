@@ -2,7 +2,7 @@ import React from 'react';
 import { useState } from 'react';
 import { Artist } from '../../pages';
 
-const List = ( {albums} ) => {
+const List = ( {albums, showAlbums } ) => {
 
     const [status, setLikeStatus] = useState(false);
 
@@ -17,7 +17,9 @@ const List = ( {albums} ) => {
         }
     }
 
-    return (<table>
+    return (<>
+        <button onClick={e => showAlbums(e)}>Show Albums</button>
+        <table id="albums-table">
         <tbody>
             <tr>
                 <th>Album Name</th>
@@ -45,6 +47,7 @@ const List = ( {albums} ) => {
 
             </tbody>
         </table>
+        </>
     );
 }
 

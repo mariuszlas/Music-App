@@ -14,3 +14,7 @@ td {
     border: solid 2px black;
     padding:0.75em;
 }
+
+#albums-table {
+    display: none;
+}

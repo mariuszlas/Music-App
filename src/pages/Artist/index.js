@@ -19,11 +19,17 @@ const Artist = () => {
         }
     ])
 
+    const showAlbums = (e) => {
+        e.preventDefault();
+        const albumsTable = document.querySelector("#albums-table")
+        albumsTable.style.display = "block";
+    }
+
     return (
       <main>
         <h1>Favourite Artist</h1>
         < Intro />
-        < List albums={albums}/>
+        < List albums={albums} showAlbums={showAlbums}/>
       </main>
     );
   }
