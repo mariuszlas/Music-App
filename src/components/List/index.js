@@ -10,10 +10,12 @@ const List = ( {albums, showAlbums } ) => {
         e.stopPropagation()
         setLikeStatus(!status)
         const row = e.target.closest('tr');
+        const cells = Array.from(row.children);
+        
         if (status) {
-            row.style.color = "red";
+            cells.forEach(td => td.style.color = "red");
         } else {
-            row.style.color = "black";
+            cells.forEach(td => td.style.color = "black");
         }
     }
 

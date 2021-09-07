@@ -25,6 +25,10 @@ const Artist = () => {
         albumsTable.style.display = "block";
     }
 
+    const showAlbumsFromIntro = () => {
+        console.log('show albums from intro');
+    }
+
     return (
       <main>
         <h1>Favourite Artist</h1>
