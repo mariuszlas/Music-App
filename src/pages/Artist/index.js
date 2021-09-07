@@ -1,5 +1,5 @@
 import React from 'react'
-import { List, Intro } from '../../components';
+import { List, Intro, Lyrics, Timer } from '../../components';
 import { useState } from 'react';
 
 const Artist = () => {
@@ -33,7 +33,8 @@ const Artist = () => {
       <main>
         <h1>Favourite Artist</h1>
         < Intro />
-        < List albums={albums} showAlbums={showAlbums}/>
+        < List albums={albums}/>
+        < Lyrics />
       </main>
     );
   }

@@ -23,6 +23,7 @@ const Intro = () => {
             </tr>
             </tbody>
         </table>
+        </>
     );
 
 };
