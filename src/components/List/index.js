@@ -17,6 +17,7 @@ const List = () => {
     }
 
     return (<table>
+        <tbody>
             <tr>
                 <th>Album Name</th>
                 <th>Release Date</th>
@@ -40,6 +41,7 @@ const List = () => {
                 <td><img src=""/></td>
                 <td><button onClick={handleLike}>Like it</button></td>
             </tr>
+            </tbody>
         </table>
     );
 }
