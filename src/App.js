@@ -1,14 +1,11 @@
 import React from 'react';
-import ArtistInfo from './components/Intro';
-import {List, Intro} from './components';
+import {Artist} from './pages';
 import './style.css'
 
 const App = () => {
     return (
       <main>
-        <h1>Favourite Artist</h1>
-        < ArtistInfo />
-        < List />
+       < Artist />
       </main>
     );
   }

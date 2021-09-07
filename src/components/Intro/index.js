@@ -1,7 +1,7 @@
 import React from 'react';
-import List from '../List'
 
-const ArtistInfo = () => {
+
+const Intro = () => {
  
     return (
         <table>
@@ -19,4 +19,4 @@ const ArtistInfo = () => {
     
 };
 
-export default ArtistInfo;
+export default Intro;
