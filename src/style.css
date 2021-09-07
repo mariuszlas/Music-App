@@ -1,16 +1,16 @@
 
 main {
     font-family: 'Courier New', Courier, monospace;
+    width: 900px;
 }
 
 table {
-    border-style: dashed;
     align-items: center;
+    border-collapse: collapse;
+    margin: 3em;
 }
 
 td {
-    padding: 4px;
-    border-style: solid;
-    border-collapse: collapse;
-    padding:0.25px;
+    border: solid 2px black;
+    padding:0.75em;
 }

@@ -1,7 +1,8 @@
 import React from 'react';
 import { useState } from 'react';
+import { Artist } from '../../pages';
 
-const List = () => {
+const List = ( {albums} ) => {
 
     const [status, setLikeStatus] = useState(false);
 
@@ -12,7 +13,7 @@ const List = () => {
         if (status) {
             row.style.color = "red";
         } else {
-            row.style.color = "black";        
+            row.style.color = "black";
         }
     }
 
@@ -24,23 +25,24 @@ const List = () => {
                 <th>Album Cover</th>
             </tr>
             <tr>
-                <td>Sometimes I Sit and Think, and Sometimes I Just Sit</td>
-                <td> 20 March 2015</td>
+                <td>{albums[0].name}</td>
+                <td>{albums[0].date}</td>
                 <td><img src=""/></td>
                 <td><button onClick={handleLike}>Like it</button></td>
             </tr>
             <tr>
-                <td>Tell Me How You Really Feel</td>
-                <td>18 May 2018</td>
+                <td>{albums[1].name}</td>
+                <td>{albums[1].date}</td>
                 <td><img src=""/></td>
                 <td><button onClick={handleLike}>Like it</button></td>
             </tr>
             <tr>
-                <td>Things Take Time, Take Time</td>
-                <td>12 November 2021</td>
+                <td>{albums[2].name}</td>
+                <td>{albums[2].date}</td>
                 <td><img src=""/></td>
                 <td><button onClick={handleLike}>Like it</button></td>
             </tr>
+
             </tbody>
         </table>
     );
